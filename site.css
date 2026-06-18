@@ -271,6 +271,20 @@ strong { font-weight: 700; }
 .card__link:hover { color: var(--clay); gap: .65rem; }
 .help-card { border-left: 4px solid var(--gold); }
 
+/* ---- Scenery photo (local imagery) -------------------------------------- */
+figure.scenery { margin: 0 0 1.8rem; }
+figure.scenery img {
+  width: 100%; height: clamp(220px, 30vw, 340px); object-fit: cover;
+  border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm);
+}
+figure.scenery figcaption {
+  margin-top: .55rem; font-size: .82rem; font-style: italic; color: var(--ink-soft);
+}
+.scenery-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); margin: 1.6rem 0 .4rem; }
+.scenery-grid figure.scenery { margin: 0; }
+.scenery-grid figure.scenery img { height: clamp(180px, 24vw, 250px); }
+@media (max-width: 680px) { .scenery-grid { grid-template-columns: 1fr; } }
+
 /* ---- Guide callout ------------------------------------------------------ */
 .callout {
   display: grid; grid-template-columns: 1fr auto; gap: 1.6rem; align-items: center;

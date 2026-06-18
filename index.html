@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css">
+<link rel="stylesheet" href="site.css">
 
 <!-- Schema: Organization (InsuranceAgency) + WebSite -->
 <script type="application/ld+json">
@@ -51,6 +51,7 @@
     {
       "@type": "Person",
       "@id": "https://georgiamedicareenrollment.com/#darin",
+      "image": "https://georgiamedicareenrollment.com/darin.jpg",
       "name": "Darin Weidauer",
       "honorificSuffix": "MBA, RSSA",
       "jobTitle": "Independent Medicare Insurance Agent & Gerontologist",
@@ -110,7 +111,7 @@
 <!-- ============================ HEADER ============================ -->
 <header class="site-header">
   <div class="wrap site-header__inner">
-    <a class="brand" href="/" aria-label="ECOS Medicare Solutions home">
+    <a class="brand" href="index.html" aria-label="ECOS Medicare Solutions home">
       <svg class="brand__mark" width="42" height="42" viewBox="0 0 42 42" aria-hidden="true">
         <circle cx="21" cy="21" r="20" fill="#1b5a48"/>
         <path d="M21 9l3.1 6.6 7.2.9-5.3 5 1.4 7.1L21 31.2 14.6 34.6 16 27.5l-5.3-5 7.2-.9z" fill="#e7c486" opacity=".25"/>
@@ -124,11 +125,11 @@
     </a>
     <nav class="nav" aria-label="Primary">
       <ul class="nav__links">
-        <li><a href="/medicare-advantage.html">Plans</a></li>
-        <li><a href="/medicare-costs.html">2026 Costs</a></li>
-        <li><a href="/veterans.html">Veterans</a></li>
-        <li><a href="/medicaid.html">Medicaid</a></li>
-        <li><a href="/turning-65.html">Turning 65</a></li>
+        <li><a href="medicare-advantage.html">Plans</a></li>
+        <li><a href="medicare-costs.html">2026 Costs</a></li>
+        <li><a href="veterans.html">Veterans</a></li>
+        <li><a href="medicaid.html">Medicaid</a></li>
+        <li><a href="turning-65.html">Turning 65</a></li>
       </ul>
       <!-- PLACEHOLDER: replace (770) 285-5174 and +17702855174 with {{PRIMARY_PHONE}} -->
       <a class="header-call" href="tel:+17702855174">
@@ -238,7 +239,7 @@
         </div>
 
         <button class="btn btn--primary btn--block btn--lg" type="submit">Get my free review</button>
-        <p class="form-fineprint">We respect your privacy. See our <a href="/privacy.html">Privacy Policy</a>. This is a solicitation for insurance.</p>
+        <p class="form-fineprint">We respect your privacy. See our <a href="privacy.html">Privacy Policy</a>. This is a solicitation for insurance.</p>
       </form>
     </div>
   </div>
@@ -284,7 +285,7 @@
         <div class="stat__sub">Yearly out-of-pocket max, 2026</div>
       </div>
     </div>
-    <p class="source-note">Source: Centers for Medicare &amp; Medicaid Services, 2026 Medicare Parts A &amp; B Premiums and Deductibles (released November 14, 2025) and 2026 Part D parameters. Higher earners may pay an income-related surcharge (IRMAA) &mdash; see our <a href="/medicare-costs.html">2026 costs &amp; IRMAA page</a>.</p>
+    <p class="source-note">Source: Centers for Medicare &amp; Medicaid Services, 2026 Medicare Parts A &amp; B Premiums and Deductibles (released November 14, 2025) and 2026 Part D parameters. Higher earners may pay an income-related surcharge (IRMAA) &mdash; see our <a href="medicare-costs.html">2026 costs &amp; IRMAA page</a>.</p>
   </div>
 </section>
 
@@ -299,19 +300,19 @@
         <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h5"/></svg>
         <h3>Medicare Advantage</h3>
         <p>Part C plans bundle your hospital, medical, and usually drug coverage into one plan, often with extras like dental, vision, and a $0 premium &mdash; in exchange for using a network.</p>
-        <a class="card__link" href="/medicare-advantage.html">How Advantage works <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="medicare-advantage.html">How Advantage works <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="card">
         <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg>
         <h3>Medicare Supplement</h3>
         <p>Medigap pairs with Original Medicare to cover much of what it leaves behind, so you can see any provider nationwide that takes Medicare. You add a separate Part D drug plan.</p>
-        <a class="card__link" href="/medicare-supplement.html">How Medigap works <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="medicare-supplement.html">How Medigap works <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="card">
         <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 7h6M9 11h6M9 15h3"/></svg>
         <h3>Part D drug plans</h3>
         <p>Standalone prescription coverage that you choose based on your specific medications. The 2026 out-of-pocket cap is $2,100 &mdash; the most you will pay for covered drugs all year.</p>
-        <a class="card__link" href="/part-d.html">How Part D works <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="part-d.html">How Part D works <span aria-hidden="true">&rarr;</span></a>
       </article>
     </div>
   </div>
@@ -327,22 +328,22 @@
       <article class="card help-card">
         <h3>Veterans</h3>
         <p>How TRICARE For Life and VA health care each work with Medicare &mdash; and why Part B timing still matters.</p>
-        <a class="card__link" href="/veterans.html">Veterans &amp; Medicare <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="veterans.html">Veterans &amp; Medicare <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="card help-card">
         <h3>Medicare + Medicaid</h3>
         <p>If you qualify for both, Georgia Medicaid and programs like QMB/SLMB can lower your costs. D-SNPs coordinate the two.</p>
-        <a class="card__link" href="/medicaid.html">Dual-eligible help <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="medicaid.html">Dual-eligible help <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="card help-card">
         <h3>Chronic conditions</h3>
         <p>Chronic Special Needs Plans (C-SNPs) are built for conditions like diabetes, heart, or lung disease and ESRD.</p>
-        <a class="card__link" href="/chronic-snp.html">About C-SNPs <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="chronic-snp.html">About C-SNPs <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="card help-card">
         <h3>Nursing-home care</h3>
         <p>Institutional Special Needs Plans (I-SNPs) serve people living in a facility or needing that level of care.</p>
-        <a class="card__link" href="/institutional-snp.html">About I-SNPs <span aria-hidden="true">&rarr;</span></a>
+        <a class="card__link" href="institutional-snp.html">About I-SNPs <span aria-hidden="true">&rarr;</span></a>
       </article>
     </div>
   </div>
@@ -356,7 +357,7 @@
         <p class="eyebrow">Free guide</p>
         <h2 class="mb-0" style="margin-bottom:.3em">New to Medicare? Start with Turning 65.</h2>
         <p>A clear, step-by-step walk-through of your enrollment windows, the choices in front of you, and the deadlines that carry a lifelong penalty if you miss them. No sign-up required.</p>
-        <a class="btn btn--primary" href="/turning-65.html">Read the Turning 65 guide</a>
+        <a class="btn btn--primary" href="turning-65.html">Read the Turning 65 guide</a>
       </div>
       <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#1b5a48" stroke-width="1.4" aria-hidden="true"><path d="M4 5a2 2 0 012-2h6v18H6a2 2 0 00-2 2z"/><path d="M20 5a2 2 0 00-2-2h-6v18h6a2 2 0 012 2z"/><path d="M8 7h2M8 10h2M14 7h2M14 10h2"/></svg>
     </div>
@@ -368,9 +369,7 @@
   <div class="wrap">
     <p class="eyebrow">Who you'll be working with</p>
     <div class="author">
-      <div class="author__photo author__photo--ph" role="img" aria-label="Photo of Darin Weidauer (to be added)">
-        Headshot of Darin Weidauer<br>(add darin.webp)
-      </div>
+      <img class="author__photo" src="darin.jpg" width="600" height="600" alt="Darin Weidauer, independent Medicare insurance agent and credentialed gerontologist" loading="lazy" decoding="async">
       <div>
         <h2 style="margin-bottom:.15em">Darin Weidauer, MBA, RSSA&reg;</h2>
         <p style="font-weight:700;color:var(--pine-dark);margin-bottom:.6em">Gerontologist · Registered Social Security Analyst&reg; · U.S. Air Force Veteran</p>
@@ -395,30 +394,30 @@
     <h2>Local Medicare help, statewide</h2>
     <p class="lede">We work with Georgians by phone and video across the state. Find Medicare guidance for your city:</p>
     <div class="loc-grid">
-      <a class="loc" href="/atlanta.html">Atlanta <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/augusta.html">Augusta <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/columbus.html">Columbus <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/savannah.html">Savannah <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/macon.html">Macon <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/athens.html">Athens <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/gainesville.html">Gainesville <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/warner-robins.html">Warner Robins <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/albany.html">Albany <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/valdosta.html">Valdosta <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/brunswick.html">Brunswick <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/rome.html">Rome <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/dalton.html">Dalton <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="atlanta.html">Atlanta <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="augusta.html">Augusta <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="columbus.html">Columbus <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="savannah.html">Savannah <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="macon.html">Macon <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="athens.html">Athens <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="gainesville.html">Gainesville <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="warner-robins.html">Warner Robins <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="albany.html">Albany <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="valdosta.html">Valdosta <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="brunswick.html">Brunswick <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="rome.html">Rome <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="dalton.html">Dalton <span aria-hidden="true">&rarr;</span></a>
     </div>
 
     <p class="lede" style="margin-top:2.4rem">Or explore Medicare by region &mdash; the parts of the state we all know by name:</p>
     <div class="loc-grid">
-      <a class="loc" href="/north-georgia.html">North Georgia &amp; the Mountains <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/metro-atlanta.html">Metro Atlanta <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/middle-georgia.html">Middle Georgia <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/csra.html">The CSRA <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/chattahoochee-valley.html">Chattahoochee Valley <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/coastal-georgia.html">Coastal Georgia &amp; Golden Isles <span aria-hidden="true">&rarr;</span></a>
-      <a class="loc" href="/southwest-georgia.html">Southwest Georgia <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="north-georgia.html">North Georgia &amp; the Mountains <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="metro-atlanta.html">Metro Atlanta <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="middle-georgia.html">Middle Georgia <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="csra.html">The CSRA <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="chattahoochee-valley.html">Chattahoochee Valley <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="coastal-georgia.html">Coastal Georgia &amp; Golden Isles <span aria-hidden="true">&rarr;</span></a>
+      <a class="loc" href="southwest-georgia.html">Southwest Georgia <span aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -447,7 +446,7 @@
       </details>
       <details>
         <summary>I have VA or TRICARE benefits. Do I still need Medicare?</summary>
-        <div class="faq__a"><p>Often, yes. VA health care and Medicare do not coordinate with each other, and TRICARE For Life requires you to have Medicare Part A and Part B. Enrolling in Part B on time usually matters even if you have VA care, because VA medical coverage is not considered creditable for Part B and a late penalty can last for life. Our <a href="/veterans.html">Veterans page</a> explains how these benefits fit together.</p></div>
+        <div class="faq__a"><p>Often, yes. VA health care and Medicare do not coordinate with each other, and TRICARE For Life requires you to have Medicare Part A and Part B. Enrolling in Part B on time usually matters even if you have VA care, because VA medical coverage is not considered creditable for Part B and a late penalty can last for life. Our <a href="veterans.html">Veterans page</a> explains how these benefits fit together.</p></div>
       </details>
     </div>
   </div>
@@ -484,21 +483,21 @@
       <div>
         <h4>Plans</h4>
         <ul>
-          <li><a href="/medicare-advantage.html">Medicare Advantage</a></li>
-          <li><a href="/medicare-supplement.html">Medicare Supplement</a></li>
-          <li><a href="/part-d.html">Part D drug plans</a></li>
-          <li><a href="/chronic-snp.html">Chronic SNPs</a></li>
-          <li><a href="/institutional-snp.html">Institutional SNPs</a></li>
+          <li><a href="medicare-advantage.html">Medicare Advantage</a></li>
+          <li><a href="medicare-supplement.html">Medicare Supplement</a></li>
+          <li><a href="part-d.html">Part D drug plans</a></li>
+          <li><a href="chronic-snp.html">Chronic SNPs</a></li>
+          <li><a href="institutional-snp.html">Institutional SNPs</a></li>
         </ul>
       </div>
       <div>
         <h4>Resources</h4>
         <ul>
-          <li><a href="/turning-65.html">Turning 65 guide</a></li>
-          <li><a href="/medicare-costs.html">2026 costs &amp; IRMAA</a></li>
-          <li><a href="/veterans.html">Veterans</a></li>
-          <li><a href="/medicaid.html">Medicare + Medicaid</a></li>
-          <li><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></li>
+          <li><a href="turning-65.html">Turning 65 guide</a></li>
+          <li><a href="medicare-costs.html">2026 costs &amp; IRMAA</a></li>
+          <li><a href="veterans.html">Veterans</a></li>
+          <li><a href="medicaid.html">Medicare + Medicaid</a></li>
+          <li><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></li>
         </ul>
       </div>
     </div>
@@ -512,6 +511,6 @@
   </div>
 </footer>
 
-<script src="/site.js" defer></script>
+<script src="site.js" defer></script>
 </body>
 </html>
