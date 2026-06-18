@@ -1,0 +1,7 @@
+# Georgiamedicareenrollment.com
+# Standard search engines and AI / answer-engine crawlers are welcome.
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+
+Sitemap: https://georgiamedicareenrollment.com/sitemap.xml

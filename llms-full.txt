@@ -1,0 +1,65 @@
+# ECOS Medicare Solutions — Georgia (full reference)
+
+Website: https://georgiamedicareenrollment.com/
+Phone: (770) 285-5174
+Service area: State of Georgia (statewide — by phone, video, and locally)
+
+## About
+ECOS Medicare Solutions is an independent Medicare insurance agency helping Georgia retirees and people
+approaching 65 compare their Medicare options clearly, patiently, and at no cost. Because independent agents
+are paid by the insurance carriers when a client enrolls, there is no charge to the consumer, and plan premiums
+are the same whether you enroll with our help or on your own.
+
+## Agent / author
+Darin Weidauer, MBA, RSSA — independent Medicare insurance agent, credentialed gerontologist (since 2014),
+Registered Social Security Analyst, and 22-year U.S. Air Force veteran (retired officer). NPN 18580338.
+Author of "Retire With Confidence: The Medicare Guide." Former Professor of Aerospace Studies at Loyola
+Marymount University; has lectured at more than 50 colleges and universities.
+
+## How Medicare fits together
+- Part A: inpatient hospital, skilled nursing, hospice (premium-free for most).
+- Part B: doctors, outpatient, preventive care. 2026 premium $202.90/month; deductible $283.
+- Part C (Medicare Advantage): a private all-in-one plan bundling A, B, and usually Part D, often $0 premium,
+  using a local network. Includes specialized plans: C-SNP (chronic conditions), I-SNP (institutional/facility
+  care), and D-SNP (for people with both Medicare and Medicaid).
+- Part D: prescription drug coverage. 2026 out-of-pocket cap $2,100; max deductible $615; national base premium $38.99.
+- Medicare Supplement (Medigap): works with Original Medicare, usable with any U.S. provider that accepts Medicare,
+  standardized by plan letter; pair with a standalone Part D plan.
+
+## 2026 IRMAA (income-related surcharge), based on 2024 MAGI
+Single / Joint thresholds and 2026 Part B total premium (Part D surcharge added to plan premium):
+- <=$109,000 / <=$218,000: Part B $202.90, Part D +$0.00
+- $109,001-$137,000 / $218,001-$274,000: Part B $284.10, Part D +$14.50
+- $137,001-$171,000 / $274,001-$342,000: Part B $405.80, Part D +$37.50
+- $171,001-$205,000 / $342,001-$410,000: Part B $527.50, Part D +$60.40
+- $205,001-$499,999 / $410,001-$749,999: Part B $649.20, Part D +$83.30
+- >=$500,000 / >=$750,000: Part B $689.90, Part D +$91.00
+
+## Veterans (TRICARE For Life and VA)
+- TRICARE For Life requires Medicare Part A and B; pays secondary to Medicare; its pharmacy is creditable, so a
+  separate Part D plan is usually unnecessary. An MA-only plan can add dental/vision without duplicating drug coverage.
+- VA health care does not coordinate with Medicare; VA medical is NOT creditable for Part B (enroll on time to avoid a
+  lifelong penalty), but VA pharmacy IS creditable for Part D. Having both gives more options.
+
+## Medicare + Georgia Medicaid (dual eligible)
+Medicare pays first; Georgia Medicaid (administered by the Department of Community Health; eligibility via the
+Division of Family & Children Services) may help with cost-sharing. Medicare Savings Programs (QMB/SLMB/QI) help with
+the Part B premium; Extra Help lowers Part D costs; D-SNPs coordinate both. Free state counseling: GeorgiaCares
+(Georgia's SHIP), 1-800-669-8387.
+
+## Areas served
+Metros: Atlanta, Augusta, Columbus, Savannah, Macon, Athens, Gainesville, Warner Robins, Albany, Valdosta,
+Brunswick, Rome, Dalton. Regions: North Georgia & the Mountains, Metro Atlanta, Middle Georgia, the CSRA,
+the Chattahoochee Valley, Coastal Georgia & the Golden Isles, Southwest Georgia.
+
+## Common questions
+- Cost to work with us: none; agents are paid by carriers at enrollment.
+- Enrollment windows: Initial Enrollment Period (7 months around 65th birthday); Annual Election Period Oct 15–Dec 7;
+  Medicare Advantage Open Enrollment Jan 1–Mar 31; Special Enrollment Periods after qualifying events.
+- Advantage vs Medigap: depends on your doctors, prescriptions, travel, and budget.
+
+## Compliance
+We do not offer every plan available in your area. We represent 8 organizations which offer 87 products in Georgia. Please contact Medicare.gov, 1-800-MEDICARE, or your local
+State Health Insurance Program (SHIP) to get information on all your options. ECOS Medicare Solutions is not
+connected with or endorsed by the U.S. government or the federal Medicare program, and is not affiliated with the
+VA, the Department of Defense, or TRICARE. This is a solicitation for insurance; a licensed agent may contact you.
