@@ -188,7 +188,8 @@ strong { font-weight: 700; }
 @media (max-width: 860px) { .nav__links { display: none; } }
 
 /* ---- Hero --------------------------------------------------------------- */
-.hero { position: relative; overflow: hidden; background: var(--paper); }
+.hero { position: relative; overflow: hidden; background: var(--paper); min-height: clamp(320px, 30vw, 400px); }
+.hero .wrap { position: relative; z-index: 1; }
 .hero__scene { position: absolute; inset: auto 0 0 0; width: 100%; height: 46%; z-index: 0; }
 .hero__scene svg { width: 100%; height: 100%; }
 .hero__inner {
@@ -274,7 +275,7 @@ strong { font-weight: 700; }
 /* ---- Scenery photo (local imagery) -------------------------------------- */
 figure.scenery { margin: 0 0 1.8rem; }
 figure.scenery img {
-  width: 100%; height: clamp(220px, 30vw, 340px); object-fit: cover;
+  width: 100%; height: auto; max-height: 720px; object-fit: cover; display: block;
   border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm);
 }
 figure.scenery figcaption {
@@ -282,7 +283,7 @@ figure.scenery figcaption {
 }
 .scenery-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); margin: 1.6rem 0 .4rem; }
 .scenery-grid figure.scenery { margin: 0; }
-.scenery-grid figure.scenery img { height: clamp(180px, 24vw, 250px); }
+.scenery-grid figure.scenery img { height: clamp(180px, 24vw, 250px); object-fit: cover; }
 @media (max-width: 680px) { .scenery-grid { grid-template-columns: 1fr; } }
 
 /* ---- Guide callout ------------------------------------------------------ */
@@ -346,6 +347,11 @@ figure.scenery figcaption {
 .footer-grid a { text-decoration: none; }
 .footer-grid a:hover { text-decoration: underline; }
 @media (max-width: 720px) { .footer-grid { grid-template-columns: 1fr; } }
+.footer-areas { border-top: 1px solid rgba(255,255,255,.12); margin-top: 2rem; padding-top: 1.6rem; }
+.footer-areas h4 { color: #fff; font-family: var(--body); font-size: .85rem; text-transform: uppercase; letter-spacing: .12em; margin: 0 0 .8rem; }
+.footer-areas ul { list-style: none; margin: 0 0 1.1rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: .45rem 1.4rem; }
+.footer-areas a { text-decoration: none; }
+.footer-areas a:hover { text-decoration: underline; }
 
 .disclaimer {
   border-top: 1px solid #2c3a31; margin-top: 2rem; padding-top: 1.6rem;
