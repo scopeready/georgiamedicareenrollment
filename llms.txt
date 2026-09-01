@@ -15,6 +15,7 @@ ECOS Medicare Solutions is an independent Medicare insurance agency serving the 
 
 ## Pages
 - [Home](https://georgiamedicareenrollment.com/): Home — free, plain-English Medicare help across Georgia
+- [Retire With Confidence — free 295-page retirement guide](https://georgiamedicareenrollment.com/retirement-guide.html): Medicare, Social Security, and the money decisions that decide your retirement. Free, emailed to you by a licensed Georgia agent.
 - [Medicare Advantage (Part C)](https://georgiamedicareenrollment.com/medicare-advantage.html): Medicare Advantage (Part C): how networks and bundled benefits work
 - [Medicare Supplement (Medigap)](https://georgiamedicareenrollment.com/medicare-supplement.html): Medicare Supplement (Medigap): nationwide provider access, standardized plans
 - [Part D drug plans](https://georgiamedicareenrollment.com/part-d.html): Part D drug plans: 2026 $2,100 cap, choosing by your medications
