@@ -45,11 +45,17 @@
   // Describe where on the page an element sits, so you can tell a header call
   // from a footer call.
   function placement(el) {
+    // Covers all three ECOS sites, whose templates use different class names.
     var map = [
-      ['.top-bar', 'top bar'], ['.site-header', 'header'], ['.hero', 'hero'],
-      ['.bottom-cta', 'bottom cta'], ['.site-footer', 'footer'],
+      ['.top-bar', 'top bar'],
+      ['.site-header', 'header'], ['.site-head', 'header'],            // NV/GA, AZ
+      ['.callcard', 'hero call card'], ['.cta-strip', 'cta strip'],    // AZ
+      ['.bottom-cta', 'bottom cta'],                                   // NV/GA
+      ['.hero', 'hero'], ['.inner-hero', 'hero'],
       ['.lead-card', 'lead form'], ['.form-card', 'lead form'],
-      ['.faq-list', 'faq'], ['.page-links', 'page links']
+      ['.faq-list', 'faq'], ['.page-links', 'page links'],
+      ['.site-footer', 'footer'], ['.site-foot', 'footer'], ['.tpmo', 'footer'],
+      ['.band', 'body content']
     ];
     for (var i = 0; i < map.length; i++) {
       try { if (el.closest(map[i][0])) return map[i][1]; } catch (e) {}
