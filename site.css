@@ -414,3 +414,9 @@ figure.scenery figcaption {
    medicare-supplement at phone widths. */
 .ctable{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 @media(max-width:640px){.ctable{font-size:.9rem}}
+
+/* ---- Network strip (sister sites of the same agency) ---- */
+.footer-net{border-top:1px solid rgba(255,255,255,.12);margin-top:1.4rem;padding-top:1.2rem;font-size:.9rem;line-height:1.8}
+.footer-net span{color:#fff;font-weight:700;margin-right:.3rem}
+.footer-net a{text-decoration:none}
+.footer-net a:hover{text-decoration:underline}
