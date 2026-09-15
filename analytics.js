@@ -1,4 +1,4 @@
-/* ECOS Medicare Solutions — site analytics (Google Analytics 4)
+/* ECOS Insurance Solutions — site analytics (Google Analytics 4)
  *
  * ONE place to configure. Replace MEASUREMENT_ID below with this site's GA4
  * Measurement ID (Google Analytics -> Admin -> Data Streams -> your web stream).

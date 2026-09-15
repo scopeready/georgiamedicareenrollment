@@ -1,4 +1,4 @@
-/* ECOS Medicare Solutions — shared site behavior (no dependencies) */
+/* ECOS Insurance Solutions — shared site behavior (no dependencies) */
 (function () {
   // Stamp consent date/time (server also records receipt time).
   var ct = document.getElementById('consent_timestamp');
